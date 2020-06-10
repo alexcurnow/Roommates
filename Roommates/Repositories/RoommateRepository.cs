@@ -97,7 +97,7 @@ namespace Roommates.Repositories
                                         JOIN Room r on rm.RoomId = r.Id;";
 
                     
-                    SqlDataReader reader = cmd.ExecuteReader();
+                    SqlDataReader reader = cmd.ExecuteReader();     
 
                     List<Roommate> roommatesWithRoom = new List<Roommate>();
 
